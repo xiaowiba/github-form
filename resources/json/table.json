@@ -1,0 +1,1860 @@
+{
+  "result": 200,
+  "data": {
+    "CRFs": [
+      {
+        "CRFNo": 166,
+        "Name": "单纯的表格",
+        "DisplayName": "单纯的表格",
+        "Organization": {
+          "OrganizationID": 1,
+          "Name": "北0011",
+          "Type": {
+            "Name": "机构",
+            "DisplayName": "机构",
+            "Code": "10002197"
+          }
+        },
+        "Author": {
+          "AuthorID": 41,
+          "UserName": "kwadmin",
+          "RealName": "康41"
+        },
+        "CreationStatus": "未完成",
+        "ActiveStatus": "可用",
+        "FormType": 0,
+        "MedicalType": "",
+        "MedicalTypeName": "",
+        "Description": "",
+        "Pages": [
+          {
+            "PageNo": 687,
+            "Name": "想独自平静一会儿吗？很快你就可以了",
+            "DisplayName": "想独自平静一会儿吗？很快你就可以了",
+            "SortNo": 1,
+            "CreationStatus": "完成",
+            "ActiveStatus": "可用",
+            "Visible": "可见",
+            "EncHomePageID": 0,
+            "Sections": [
+              {
+                "SectionNo": 869,
+                "Name": "正义？好个冠冕堂皇之词",
+                "DisplayName": "正义？好个冠冕堂皇之词",
+                "SortNo": 1,
+                "CreationStatus": "完成",
+                "ActiveStatus": "可用",
+                "Visible": "可见",
+                "EncHomePageID": 0,
+                "Items": [
+                  {
+                    "ItemNo": 25427,
+                    "Name": "a table",
+                    "DisplayName": "a table",
+                    "SortNo": 1,
+                    "ClinicalType": {
+                      "Name": "临床观察项目",
+                      "DisplayName": "临床观察项目",
+                      "Code": "10000021"
+                    },
+                    "Valueset": {},
+                    "Concept": {
+                      "Name": "a table",
+                      "DisplayName": "a table",
+                      "Code": "12056681"
+                    },
+                    "ArrangeType": "1",
+                    "DataType": {
+                      "Name": "集合",
+                      "DisplayName": "集合(数据类型)",
+                      "Code": "10000666"
+                    },
+                    "HYN": "1",
+                    "HYNValueset": {
+                      "Name": "是否不详",
+                      "OID": "2.16.999.1.1.1.1.6.236",
+                      "Concepts": [
+                        {
+                          "Name": "是",
+                          "DisplayName": "是",
+                          "Code": "10001510"
+                        },
+                        {
+                          "Name": "否",
+                          "DisplayName": "否",
+                          "Code": "10001511"
+                        },
+                        {
+                          "Name": "不详",
+                          "DisplayName": "不详",
+                          "Code": "10001373"
+                        }
+                      ]
+                    },
+                    "HYNExpandVal": "10001510",
+                    "UIType": {
+                      "Name": "表格",
+                      "DisplayName": "表格",
+                      "Code": "10001132"
+                    },
+                    "DefaultChilds": [
+                      {
+                        "ItemNo": 0,
+                        "DisplayName": "第1行",
+                        "SortNo": 0,
+                        "Childs": [
+                          {
+                            "ItemNo": 25428,
+                            "Name": "label",
+                            "DisplayName": "label",
+                            "SortNo": 1,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "label",
+                              "DisplayName": "label",
+                              "Code": "12042059"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "标签",
+                              "DisplayName": "标签",
+                              "Code": "10000002"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\r\n  \"InfobuttonSearch\": \"on\",\r\n  \"type\": \"custom\",\r\n  \"TagHtmlContext\": \"%3Cb%3E%3Ci%3E%3Cu%3E%3Cstrike%3Elabel-content%3C/strike%3E%3C/u%3E%3C/i%3E%3C/b%3E\",\r\n  \"Plaintext\": \"label-content\"\r\n}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25429,
+                            "Name": "数值框",
+                            "DisplayName": "数值框",
+                            "SortNo": 2,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "数字文本框",
+                              "DisplayName": "数值框",
+                              "Code": "10006719"
+                            },
+                            "DataType": {
+                              "Name": "小数",
+                              "DisplayName": "小数",
+                              "Code": "10000015"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "数字文本框",
+                              "DisplayName": "数值框",
+                              "Code": "10006719"
+                            },
+                            "Unit": {
+                              "Name": "Kg/cm^2",
+                              "DisplayName": "Kg/cm^2",
+                              "Code": "12013437"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25432,
+                            "Name": "单行文本(nop)",
+                            "DisplayName": "单行文本(nop)",
+                            "SortNo": 3,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "单行文本(nop)",
+                              "DisplayName": "单行文本(nop)",
+                              "Code": "12056684"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "单行文本框",
+                              "DisplayName": "单行文本框",
+                              "Code": "10000001"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25430,
+                            "Name": "单行文本(placehold)",
+                            "DisplayName": "单行文本(placehold)",
+                            "SortNo": 4,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "单行文本",
+                              "DisplayName": "单行文本",
+                              "Code": "12056682"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "单行文本框",
+                              "DisplayName": "单行文本框",
+                              "Code": "10000001"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\",\"Placehold\":\"这是个提示\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25431,
+                            "Name": "多行文本",
+                            "DisplayName": "多行文本",
+                            "SortNo": 5,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "多行文本",
+                              "DisplayName": "多行文本",
+                              "Code": "12056683"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "多行文本框",
+                              "DisplayName": "多行文本框",
+                              "Code": "10000009"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\",\"Height\":\"1\",\"Placehold\":\"多行文本的提示\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25922,
+                            "Name": "单选按钮",
+                            "DisplayName": "单选按钮",
+                            "SortNo": 6,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {
+                              "Name": "量表变量1代码集",
+                              "OID": "2.16.999.1.1.1.1.6.500252",
+                              "Concepts": [
+                                {
+                                  "Name": "A",
+                                  "DisplayName": "A",
+                                  "Code": "10001469",
+                                  "Score": "10_20_30"
+                                },
+                                {
+                                  "Name": "B",
+                                  "DisplayName": "B",
+                                  "Code": "10001504",
+                                  "Score": "1_2_3"
+                                },
+                                {
+                                  "Name": "C",
+                                  "DisplayName": "C",
+                                  "Code": "12001192",
+                                  "Score": "100_200_300"
+                                },
+                                {
+                                  "Name": "we",
+                                  "DisplayName": "D",
+                                  "Code": "12000271",
+                                  "Score": "1000_2000_3000"
+                                }
+                              ]
+                            },
+                            "ValuesetDefaultValue": "",
+                            "Concept": {
+                              "Name": "单选按钮",
+                              "DisplayName": "单选按钮",
+                              "Code": "10000005"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "单选按钮",
+                              "DisplayName": "单选按钮",
+                              "Code": "10000005"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25930,
+                            "Name": "单选按钮结果值",
+                            "DisplayName": "单选按钮结果值",
+                            "SortNo": 7,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "单选按钮结果值",
+                              "DisplayName": "单选按钮结果值",
+                              "Code": "12056946"
+                            },
+                            "DataType": {
+                              "Name": "小数",
+                              "DisplayName": "小数",
+                              "Code": "10000015"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "数字文本框",
+                              "DisplayName": "数值框",
+                              "Code": "10006719"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "AutoCalc": {
+                              "AutoCalcID": 16821,
+                              "ItemNo": 25930,
+                              "ParentItemNo": 25427,
+                              "Formula": "scale1",
+                              "CreateTime": "2019-03-27 14:51:42",
+                              "MapPath": "25427_25930",
+                              "CalcDependItems": [
+                                {
+                                  "DependItemNo": 25922,
+                                  "VarName": "",
+                                  "CRFUIType": "10000005"
+                                }
+                              ]
+                            },
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25923,
+                            "Name": "下拉单选",
+                            "DisplayName": "下拉单选",
+                            "SortNo": 8,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {
+                              "Name": "血小板计数（×10∧9/L）代码集",
+                              "OID": "2.16.999.1.1.1.1.6.502220",
+                              "Concepts": [
+                                {
+                                  "Name": "≥35",
+                                  "DisplayName": "≥35",
+                                  "Code": "12046899",
+                                  "Score": "0"
+                                },
+                                {
+                                  "Name": "<35",
+                                  "DisplayName": "<35",
+                                  "Code": "12046900",
+                                  "Score": "1"
+                                }
+                              ]
+                            },
+                            "ValuesetDefaultValue": "",
+                            "Concept": {
+                              "Name": "下拉菜单",
+                              "DisplayName": "下拉单选",
+                              "Code": "10000003"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "下拉菜单",
+                              "DisplayName": "下拉单选",
+                              "Code": "10000003"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\",\"SetExtend\":\"0\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25924,
+                            "Name": "多选框",
+                            "DisplayName": "多选框",
+                            "SortNo": 9,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {
+                              "Name": "变量8代码集",
+                              "OID": "2.16.999.1.1.1.1.6.500246",
+                              "Concepts": [
+                                {
+                                  "Name": "A",
+                                  "DisplayName": "A",
+                                  "Code": "10001469",
+                                  "Score": "1"
+                                },
+                                {
+                                  "Name": "B",
+                                  "DisplayName": "B",
+                                  "Code": "10001504",
+                                  "Score": "2"
+                                },
+                                {
+                                  "Name": "C",
+                                  "DisplayName": "C",
+                                  "Code": "12001192",
+                                  "Score": "3"
+                                },
+                                {
+                                  "Name": "we",
+                                  "DisplayName": "D",
+                                  "Code": "12000271",
+                                  "Score": "4"
+                                }
+                              ]
+                            },
+                            "ValuesetDefaultValue": "",
+                            "Concept": {
+                              "Name": "多选按钮",
+                              "DisplayName": "多选框",
+                              "Code": "10000004"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "多选按钮",
+                              "DisplayName": "多选框",
+                              "Code": "10000004"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25929,
+                            "Name": "多选框结果值",
+                            "DisplayName": "多选框结果值",
+                            "SortNo": 10,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "多选框结果值",
+                              "DisplayName": "多选框结果值",
+                              "Code": "12056945"
+                            },
+                            "DataType": {
+                              "Name": "小数",
+                              "DisplayName": "小数",
+                              "Code": "10000015"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "数字文本框",
+                              "DisplayName": "数值框",
+                              "Code": "10006719"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "AutoCalc": {
+                              "AutoCalcID": 16822,
+                              "ItemNo": 25929,
+                              "ParentItemNo": 25427,
+                              "Formula": "scale1",
+                              "CreateTime": "2019-03-27 14:51:42",
+                              "MapPath": "25427_25929",
+                              "CalcDependItems": [
+                                {
+                                  "DependItemNo": 25924,
+                                  "VarName": "",
+                                  "CRFUIType": "10000004"
+                                }
+                              ]
+                            },
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25925,
+                            "Name": "下拉多选",
+                            "DisplayName": "下拉多选",
+                            "SortNo": 11,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {
+                              "Name": "氯吡格雷75mg Qd月数",
+                              "OID": "2.16.999.1.1.1.1.6.414",
+                              "Concepts": [
+                                {
+                                  "Name": "9-12",
+                                  "DisplayName": "9-12",
+                                  "Code": "12001731"
+                                },
+                                {
+                                  "Name": "优先权-1",
+                                  "DisplayName": "1",
+                                  "Code": "10002062"
+                                },
+                                {
+                                  "Name": "优先权-3",
+                                  "DisplayName": "3",
+                                  "Code": "10002064"
+                                },
+                                {
+                                  "Name": "6",
+                                  "DisplayName": "6",
+                                  "Code": "12001732"
+                                },
+                                {
+                                  "Name": "9",
+                                  "DisplayName": "9",
+                                  "Code": "12001733"
+                                },
+                                {
+                                  "Name": "12",
+                                  "DisplayName": "12",
+                                  "Code": "12001734"
+                                }
+                              ]
+                            },
+                            "ValuesetDefaultValue": "",
+                            "Concept": {
+                              "Name": "下拉多选",
+                              "DisplayName": "下拉多选",
+                              "Code": "10001196"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "下拉多选",
+                              "DisplayName": "下拉多选",
+                              "Code": "10001196"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\",\"SetExtend\":\"0\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25926,
+                            "Name": "时间",
+                            "DisplayName": "时间",
+                            "SortNo": 12,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "时间",
+                              "DisplayName": "时间",
+                              "Code": "10000019"
+                            },
+                            "DataType": {
+                              "Name": "日期时间",
+                              "DisplayName": "日期时间",
+                              "Code": "10000017"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "日期和时间",
+                              "DisplayName": "日期和时间",
+                              "Code": "10000007"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"SetNowTime\":\"0\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25927,
+                            "Name": "日期",
+                            "DisplayName": "日期",
+                            "SortNo": 13,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "日期",
+                              "DisplayName": "日期",
+                              "Code": "10000008"
+                            },
+                            "DataType": {
+                              "Name": "日期",
+                              "DisplayName": "日期",
+                              "Code": "10000008"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "日期",
+                              "DisplayName": "日期",
+                              "Code": "10000008"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"SetNowTime\":\"0\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25928,
+                            "Name": "上传",
+                            "DisplayName": "上传",
+                            "SortNo": 14,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "上传",
+                              "DisplayName": "上传",
+                              "Code": "12049787"
+                            },
+                            "DataType": {
+                              "Name": "文件上传",
+                              "DisplayName": "多媒体",
+                              "Code": "10000028"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "文件上传",
+                              "DisplayName": "多媒体",
+                              "Code": "10000028"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          }
+                        ],
+                        "NameVisible": false,
+                        "CRFRelID": "1",
+                        "IsDisplay": false
+                      }
+                    ],
+                    "Childs": [
+                      {
+                        "ItemNo": 0,
+                        "DisplayName": "第1行",
+                        "SortNo": 0,
+                        "Childs": [
+                          {
+                            "ItemNo": 25428,
+                            "Name": "label",
+                            "DisplayName": "label",
+                            "SortNo": 1,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "label",
+                              "DisplayName": "label",
+                              "Code": "12042059"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "标签",
+                              "DisplayName": "标签",
+                              "Code": "10000002"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\r\n  \"InfobuttonSearch\": \"on\",\r\n  \"type\": \"custom\",\r\n  \"TagHtmlContext\": \"%3Cb%3E%3Ci%3E%3Cu%3E%3Cstrike%3Elabel-content%3C/strike%3E%3C/u%3E%3C/i%3E%3C/b%3E\",\r\n  \"Plaintext\": \"label-content\"\r\n}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25429,
+                            "Name": "数值框",
+                            "DisplayName": "数值框",
+                            "SortNo": 2,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "数字文本框",
+                              "DisplayName": "数值框",
+                              "Code": "10006719"
+                            },
+                            "DataType": {
+                              "Name": "小数",
+                              "DisplayName": "小数",
+                              "Code": "10000015"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "数字文本框",
+                              "DisplayName": "数值框",
+                              "Code": "10006719"
+                            },
+                            "Unit": {
+                              "Name": "Kg/cm^2",
+                              "DisplayName": "Kg/cm^2",
+                              "Code": "12013437"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25432,
+                            "Name": "单行文本(nop)",
+                            "DisplayName": "单行文本(nop)",
+                            "SortNo": 3,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "单行文本(nop)",
+                              "DisplayName": "单行文本(nop)",
+                              "Code": "12056684"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "单行文本框",
+                              "DisplayName": "单行文本框",
+                              "Code": "10000001"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25430,
+                            "Name": "单行文本(placehold)",
+                            "DisplayName": "单行文本(placehold)",
+                            "SortNo": 4,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "单行文本",
+                              "DisplayName": "单行文本",
+                              "Code": "12056682"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "单行文本框",
+                              "DisplayName": "单行文本框",
+                              "Code": "10000001"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\",\"Placehold\":\"这是个提示\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25431,
+                            "Name": "多行文本",
+                            "DisplayName": "多行文本",
+                            "SortNo": 5,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "多行文本",
+                              "DisplayName": "多行文本",
+                              "Code": "12056683"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "多行文本框",
+                              "DisplayName": "多行文本框",
+                              "Code": "10000009"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\",\"Height\":\"1\",\"Placehold\":\"多行文本的提示\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25922,
+                            "Name": "单选按钮",
+                            "DisplayName": "单选按钮",
+                            "SortNo": 6,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {
+                              "Name": "量表变量1代码集",
+                              "OID": "2.16.999.1.1.1.1.6.500252",
+                              "Concepts": [
+                                {
+                                  "Name": "A",
+                                  "DisplayName": "A",
+                                  "Code": "10001469",
+                                  "Score": "10_20_30"
+                                },
+                                {
+                                  "Name": "B",
+                                  "DisplayName": "B",
+                                  "Code": "10001504",
+                                  "Score": "1_2_3"
+                                },
+                                {
+                                  "Name": "C",
+                                  "DisplayName": "C",
+                                  "Code": "12001192",
+                                  "Score": "100_200_300"
+                                },
+                                {
+                                  "Name": "we",
+                                  "DisplayName": "D",
+                                  "Code": "12000271",
+                                  "Score": "1000_2000_3000"
+                                }
+                              ]
+                            },
+                            "ValuesetDefaultValue": "",
+                            "Concept": {
+                              "Name": "单选按钮",
+                              "DisplayName": "单选按钮",
+                              "Code": "10000005"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "单选按钮",
+                              "DisplayName": "单选按钮",
+                              "Code": "10000005"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25930,
+                            "Name": "单选按钮结果值",
+                            "DisplayName": "单选按钮结果值",
+                            "SortNo": 7,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "单选按钮结果值",
+                              "DisplayName": "单选按钮结果值",
+                              "Code": "12056946"
+                            },
+                            "DataType": {
+                              "Name": "小数",
+                              "DisplayName": "小数",
+                              "Code": "10000015"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "数字文本框",
+                              "DisplayName": "数值框",
+                              "Code": "10006719"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "AutoCalc": {
+                              "AutoCalcID": 16821,
+                              "ItemNo": 25930,
+                              "ParentItemNo": 25427,
+                              "Formula": "scale1",
+                              "CreateTime": "2019-03-27 14:51:42",
+                              "MapPath": "25427_25930",
+                              "CalcDependItems": [
+                                {
+                                  "DependItemNo": 25922,
+                                  "VarName": "",
+                                  "CRFUIType": "10000005"
+                                }
+                              ]
+                            },
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25923,
+                            "Name": "下拉单选",
+                            "DisplayName": "下拉单选",
+                            "SortNo": 8,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {
+                              "Name": "血小板计数（×10∧9/L）代码集",
+                              "OID": "2.16.999.1.1.1.1.6.502220",
+                              "Concepts": [
+                                {
+                                  "Name": "≥35",
+                                  "DisplayName": "≥35",
+                                  "Code": "12046899",
+                                  "Score": "0"
+                                },
+                                {
+                                  "Name": "<35",
+                                  "DisplayName": "<35",
+                                  "Code": "12046900",
+                                  "Score": "1"
+                                }
+                              ]
+                            },
+                            "ValuesetDefaultValue": "",
+                            "Concept": {
+                              "Name": "下拉菜单",
+                              "DisplayName": "下拉单选",
+                              "Code": "10000003"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "下拉菜单",
+                              "DisplayName": "下拉单选",
+                              "Code": "10000003"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\",\"SetExtend\":\"0\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25924,
+                            "Name": "多选框",
+                            "DisplayName": "多选框",
+                            "SortNo": 9,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {
+                              "Name": "变量8代码集",
+                              "OID": "2.16.999.1.1.1.1.6.500246",
+                              "Concepts": [
+                                {
+                                  "Name": "A",
+                                  "DisplayName": "A",
+                                  "Code": "10001469",
+                                  "Score": "1"
+                                },
+                                {
+                                  "Name": "B",
+                                  "DisplayName": "B",
+                                  "Code": "10001504",
+                                  "Score": "2"
+                                },
+                                {
+                                  "Name": "C",
+                                  "DisplayName": "C",
+                                  "Code": "12001192",
+                                  "Score": "3"
+                                },
+                                {
+                                  "Name": "we",
+                                  "DisplayName": "D",
+                                  "Code": "12000271",
+                                  "Score": "4"
+                                }
+                              ]
+                            },
+                            "ValuesetDefaultValue": "",
+                            "Concept": {
+                              "Name": "多选按钮",
+                              "DisplayName": "多选框",
+                              "Code": "10000004"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "多选按钮",
+                              "DisplayName": "多选框",
+                              "Code": "10000004"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25929,
+                            "Name": "多选框结果值",
+                            "DisplayName": "多选框结果值",
+                            "SortNo": 10,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "多选框结果值",
+                              "DisplayName": "多选框结果值",
+                              "Code": "12056945"
+                            },
+                            "DataType": {
+                              "Name": "小数",
+                              "DisplayName": "小数",
+                              "Code": "10000015"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "数字文本框",
+                              "DisplayName": "数值框",
+                              "Code": "10006719"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "AutoCalc": {
+                              "AutoCalcID": 16822,
+                              "ItemNo": 25929,
+                              "ParentItemNo": 25427,
+                              "Formula": "scale1",
+                              "CreateTime": "2019-03-27 14:51:42",
+                              "MapPath": "25427_25929",
+                              "CalcDependItems": [
+                                {
+                                  "DependItemNo": 25924,
+                                  "VarName": "",
+                                  "CRFUIType": "10000004"
+                                }
+                              ]
+                            },
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25925,
+                            "Name": "下拉多选",
+                            "DisplayName": "下拉多选",
+                            "SortNo": 11,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {
+                              "Name": "氯吡格雷75mg Qd月数",
+                              "OID": "2.16.999.1.1.1.1.6.414",
+                              "Concepts": [
+                                {
+                                  "Name": "9-12",
+                                  "DisplayName": "9-12",
+                                  "Code": "12001731"
+                                },
+                                {
+                                  "Name": "优先权-1",
+                                  "DisplayName": "1",
+                                  "Code": "10002062"
+                                },
+                                {
+                                  "Name": "优先权-3",
+                                  "DisplayName": "3",
+                                  "Code": "10002064"
+                                },
+                                {
+                                  "Name": "6",
+                                  "DisplayName": "6",
+                                  "Code": "12001732"
+                                },
+                                {
+                                  "Name": "9",
+                                  "DisplayName": "9",
+                                  "Code": "12001733"
+                                },
+                                {
+                                  "Name": "12",
+                                  "DisplayName": "12",
+                                  "Code": "12001734"
+                                }
+                              ]
+                            },
+                            "ValuesetDefaultValue": "",
+                            "Concept": {
+                              "Name": "下拉多选",
+                              "DisplayName": "下拉多选",
+                              "Code": "10001196"
+                            },
+                            "DataType": {
+                              "Name": "字符串",
+                              "DisplayName": "字符串",
+                              "Code": "10000013"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "下拉多选",
+                              "DisplayName": "下拉多选",
+                              "Code": "10001196"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"Width\":\"4\",\"SetExtend\":\"0\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25926,
+                            "Name": "时间",
+                            "DisplayName": "时间",
+                            "SortNo": 12,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "时间",
+                              "DisplayName": "时间",
+                              "Code": "10000019"
+                            },
+                            "DataType": {
+                              "Name": "日期时间",
+                              "DisplayName": "日期时间",
+                              "Code": "10000017"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "日期和时间",
+                              "DisplayName": "日期和时间",
+                              "Code": "10000007"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"SetNowTime\":\"0\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25927,
+                            "Name": "日期",
+                            "DisplayName": "日期",
+                            "SortNo": 13,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "日期",
+                              "DisplayName": "日期",
+                              "Code": "10000008"
+                            },
+                            "DataType": {
+                              "Name": "日期",
+                              "DisplayName": "日期",
+                              "Code": "10000008"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "日期",
+                              "DisplayName": "日期",
+                              "Code": "10000008"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\",\"SetNowTime\":\"0\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          },
+                          {
+                            "ItemNo": 25928,
+                            "Name": "上传",
+                            "DisplayName": "上传",
+                            "SortNo": 14,
+                            "ClinicalType": {
+                              "Name": "临床观察项目",
+                              "DisplayName": "临床观察项目",
+                              "Code": "10000021"
+                            },
+                            "Valueset": {},
+                            "Concept": {
+                              "Name": "上传",
+                              "DisplayName": "上传",
+                              "Code": "12049787"
+                            },
+                            "DataType": {
+                              "Name": "文件上传",
+                              "DisplayName": "多媒体",
+                              "Code": "10000028"
+                            },
+                            "HYN": "0",
+                            "HYNValueset": {},
+                            "UIType": {
+                              "Name": "文件上传",
+                              "DisplayName": "多媒体",
+                              "Code": "10000028"
+                            },
+                            "CreationStatus": "完成",
+                            "ActiveStatus": "可用",
+                            "Visible": "可见",
+                            "VRObs": {
+                              "VRObsConcept": {},
+                              "VRObsRules": []
+                            },
+                            "NameVisible": true,
+                            "IsRequired": false,
+                            "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                            "InfoButtonType": "",
+                            "InfoButtonKeyword": "",
+                            "InfoButtonContent": "",
+                            "InfoButtonContent_APP": "",
+                            "CRFDataItemValue": {
+                              "CRFItemValue": "",
+                              "CRFItemOtherValue": "",
+                              "DisplayName": ""
+                            },
+                            "CRFRelID": "1",
+                            "IsDisplay": true
+                          }
+                        ],
+                        "NameVisible": false,
+                        "CRFRelID": "1",
+                        "IsDisplay": false
+                      }
+                    ],
+                    "CreationStatus": "完成",
+                    "ActiveStatus": "可用",
+                    "Visible": "可见",
+                    "VRObs": {
+                      "VRObsConcept": {},
+                      "VRObsRules": []
+                    },
+                    "NameVisible": true,
+                    "Fold": false,
+                    "IsRequired": false,
+                    "ItemDisplay": "{\"InfobuttonSearch\":\"on\"}",
+                    "InfoButtonType": "",
+                    "InfoButtonKeyword": "",
+                    "InfoButtonContent": "",
+                    "InfoButtonContent_APP": "",
+                    "CRFDataItemValue": {
+                      "CRFItemValue": "10001510",
+                      "CRFItemOtherValue": "",
+                      "DisplayName": "是"
+                    },
+                    "CRFRelID": "",
+                    "IsDisplay": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "MobileStatus": "可用",
+        "EncHomePageID": 0,
+        "ShowHomePage": "1",
+        "HomePageFlag": true,
+        "EncItems": []
+      }
+    ]
+  },
+  "message": "成功",
+  "isdes": false
+}

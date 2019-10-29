@@ -1,0 +1,171 @@
+html {
+    background-color: rgba(247, 247, 247, 0);
+}
+/********************最顶部导航栏-start***********************/
+.form-bar {
+    background-color: rgba(247, 247, 247, 0);
+}
+.form-icon-left-nav {
+    color: #0e0e0e !important;
+}
+.mui-bar .mui-btn-link.mui-active, .mui-bar .mui-btn-link:active {
+    /*color: #0062cc;*/
+    color: #000000;
+    border: none !important;
+}
+/********************最顶部导航栏-end***********************/
+
+/********************顶部滚动导航栏-start***********************/
+.form-tab-container {
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    /*top: 44px;*/
+    z-index: 888;
+    border-top: 1px solid #c8c7cc;
+    border-bottom: 1px solid #c8c7cc;
+}
+.form-wrapper {
+    position: relative;
+    height: 1rem;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #f7f7f7;
+}
+
+.form-wrapper .scroller li.cur {
+    background: #007aff;
+}
+/********************顶部滚动导航栏-end***********************/
+
+.form-content-container {
+    /*padding-top: 88px !important;*/
+    padding-top: 44px !important;
+}
+
+.form-label {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 17px;
+    color: #000;
+}
+
+.form-label-div {
+    border-bottom: 1px solid #cccccc;
+    padding: 5px;
+}
+
+.form-label-div p {
+    color: red;
+}
+
+.form-picker-div {
+    margin-bottom: 10px;
+}
+
+.form-other-div {
+
+}
+
+.form-long-div {
+    padding: 10px 0 0 15px;
+}
+
+.form-long-div p {
+    color: #101010;
+    font-size: 15px;
+}
+
+.mui-input-row label ~ input {
+    text-align: right;
+}
+
+.form-picker-container {
+    float: right;
+    width: 40%;
+    text-align: center;
+    padding: 9px 0;
+    color: #000;
+}
+
+.form-dtPicker-container {
+    width: 60% !important;
+    float: right;
+    text-align: right;
+    padding: 9px 60px 9px 0;
+    color: #000;
+}
+
+.form-picker-span {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #bbb;
+}
+
+.form-picker-span-res {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #000;
+}
+
+/*单位*/
+.danWei {
+    padding: 0;
+    font-size: 17px;
+    color: #007aff;/*#9C9C9C*/
+    height: 40px;
+    line-height: 40px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+/*清除样式*/
+.mui-input-row .mui-input-clear ~ .mui-icon-clear {
+    top: 9px;
+    right: 30px;
+}
+
+/*输入框样式*/
+.mui-input-row label ~ input, .mui-input-row label ~ select, .mui-input-row label ~ textarea {
+    float: right;
+    width: 65%;
+    margin-bottom: 0;
+    padding: 0 60px 0 0;
+    border: 0;
+    font-size: 19px;
+}
+
+.form-li {
+    list-style: none;
+}
+
+.form-copy-container {
+    margin: 10px 0 0 0;
+}
+
+.form-copy-button {
+    text-align: right;
+    padding: 10px 10px 5px 0;
+}
+
+.form-button-container {
+    background-color: #fff;
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    z-index: 666;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-button {
+    width: 45vw !important;
+    padding: 12px;
+}

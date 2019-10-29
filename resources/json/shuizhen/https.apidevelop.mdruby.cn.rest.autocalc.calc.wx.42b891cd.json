@@ -1,0 +1,11 @@
+{
+  "result": 200,
+  "data": {
+    "DependItemNo": 2223,
+    "VarName": "结果",
+    "MapPath": "2220_2223",
+    "Value": "20.41"
+  },
+  "message": "计算成功",
+  "isdes": false
+}
