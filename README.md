@@ -9,7 +9,7 @@
 
 *一个基于 JSON 配置自动生成表单的前端解决方案*
 
-[在线预览](http://demo.xiaowiba.com/demo/form/) | [快速开始](#-快速开始) | [功能特性](#-功能特性)
+[在线预览](http://form.xiaowiba.com/index.html?account=gh_02ff1d3275f0&openId=oTcawv3SIFf9MGgsMnm1hPdoD8vMI) | [快速开始](#-快速开始) | [功能特性](#-功能特性)
 
 </div>
 
